@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="header">
+<img src="images/logo.png"/>
+</div>
+<div id="tabs-top">
+<a href="#">ANIMALS</a>
+<a href="#">MAP</a>
+<a href="#">PLACES</a>
+</div>
+<div id="main-home">
+<img src="images/map.png" width="100">
+</div>
+<div id="tabs-bottom">
+<a href="#">WEATHER</a>
+<a href="#">FEEDBACK</a>
+</div>
+</body>
+</html>
+
+body{
+padding    : 0;
+margin     : 0;
+font-family: Helvetica;
+}
+#header{
+position: fixed;
+top     : 0;
+left    : 0;
+z-index : 500;
+width   :100%;
+height  :80px;
+background-image  : url('images/wood-bg.png');
+background-repeat: repeat-x;
+}
+#header img{
+display: block;
+margin : auto;
+height : 70%;
+padding-top: 15px;
+}
+
+#tabs-top{
+position: fixed;
+top     : 80px;
+left    : 0;
+z-index : 500;
+width   : 100%;
+height  : 40px;
+background-color: darkgreen;
+}
+#tabs-top a{
+float   : left;
+display : block;
+width   : 33%;
+height  :35px;
+font-weight : 700;
+color       : white;
+text-align  : center;
+text-decoration : none;
+padding-top     : 12px;  
+}
+
+#main-home{
+margin-top: 120px;
+}
+
+#tabs-bottom{
+position : fixed;
+bottom   : 0;
+left     : 0;
+z-index  : 500;
+width    : 100%;
+height   : 40px;
+background-color: forestgreen;
+}
+#tabs-bottom a{
+float : left;
+display : block;
+width : 50%;
+height : 35px;
+font-weight : 700;
+color       : white;
+text-align  : center;
+text-decoration : none;
+padding-top     : none;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="header">
+<img src="images/logo.png"/>
+</div>
+<div id="tabs-top">
+<a href="#">ANIMALS</a>
+<a href="#">MAP</a>
+<a href="#">PLACES</a>
+</div>
+<div id="main">
+<div id="content">
+<a class="info-box" href="#">
+<img class="right" src="images/next-arrow.png"/>
+<img src="images/elephant-tn".png/>
+<h3>ELEPHANT</h3>
+<p>Gentle giants of the jungle</p>
+</a>
+</div>
+</div>
+<div id="tabs-bottom">
+<a href="#">WEATHER</a>
+<a href="#">FEEDBACK</a>
+</div>
+</body>
+</html>
+
+#main{
+margin-top: 119px;
+background: url('images/map-blur.png');
+background-repeat: repeat-y;
+}
+#content{
+padding-top: 1px;
+padding-bottom: 50px;
+}
+
+a.info-box{
+text-decoration : none;
+background      : rgba(255 ,225, 55, .8);
+width           : 90%;
+height          : 90px;
+display         : block;
+margin          : auto;
+margin-top      : 12px;
+padding         : 1px;
+}
+
+.info-box img{
+height : 70px;
+margin : 10px;
+float  : left;
+}
+.info-box h3{
+padding : 0;
+margin-bottom :0;
+width : 90%;
+color : #572800;
+}
+.info-box p{
+margin  : 0;
+padding : 0;
+width   : 90%;
+color   : 131313;
+}
+.info-box img.right{
+float      : right;
+margin-top : 25px;
+height     40px;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="header">
+<img src="images/logo.png"/>
+</div>
+<div id="tabs-top">
+<a href="#">ANIMALS</a>
+<a href="#">MAP</a>
+<a href="#">PLACES</a>
+</div>
+<div id="main">
+<div id="content">
+<div id="info-box-full">
+<img src="images/elephant.jpg"/>
+<h3>ELEPHANT</h3>
+<p>Elephants are large mammals… </p>
+<p>All elephants have several… </p>
+<p>Elephants are herbivorous… </p>
+<strong><p>WHERE WILL YOU FIND THEM</p></strong>
+<p>You will find the elephants at pen E22, right next to the amphitheatre.</p>
+</div>
+</div>
+</div>
+<div id="tabs-bottom">
+<a href="#">WEATHER</a>
+<a href="#">FEEDBACK</a>
+</div>
+</body>
+</html>
+
+#info-box-full{
+background-color : rgba(255, 255, 255, .8) ;
+width   : 90%;
+display : block;
+margin  : auto;
+margin-top : 12px;
+padding    : 10px;
+}
+#info-box-full img{
+width : 100%;
+}
+#info-box-full h3{
+text-align : center;
+}
+
+<a class="info-box" href="#">
+<img class="right" src="images/next/arrow.png"/>
+<img src="images/amphitheatre-tn.png"/>
+<h3>AMPHITHEATRE</h3>
+<p>Catch an educational and entertaining event</p>
+</a>
+
+<div id="tabs-top">
+<a href="animals.html">ANIMALS</a>
+<a href="index.html">MAP</a>
+<a href="places.html">Places</a>
+</div>
+
+<div id="info-box-full">
+<img src="images/garden-amphitheatre.jpg>
+<h3>AMPHITHEATRE</h3>
+<p>Learn and be entertained. Come and catch daily educational and entertaining shows,
+demonstrations at the amphitheater club.</p>
+<p>Today's program:</p>
+<ul>
+<li>9h00am   : A Bug's life - Play</li>
+<li>11h00am  : Penny and her Penguins</li>
+<li>14h00am  : Bigs cats of Africa - a Documentary</li>
+</ul>
+<p>WHERE WILL YOU FIND IT?</p>
+<p>The amphitheatre is to the west of the main entrance.e</p>
+</div>
+
+<a class="info-box-full">
+<h3>PINE CITY WEATHER</h3>
+<p><img class="info-box-weather-icon" src="images/partly-cloudy.png"/>
+Partly Cloudy</p>
+<p>&uarr; 25&deg &darr; 16&deg;</p>
+<h1 class="info-box-weather-icon">22&deg;</h1>
+<p><strong>FORECAST</strong></p>
+<table>
+</table>
+</a>
+
+<table>
+<tr>
+<td>Tuesday</td>
+<td><img class="info-box-weather-icon" src"images/sunny.png"></td>
+<td>&uarr;28</td>
+<td>&darr;17</td>
+</tr>
+<tr>
+<td>Wednesday</td>
+<td><img class="info-box-weather-icon" src"images/partly-cloudy.png"></td>
+<td>&uarr;28</td>
+<td>&darr;15</td>
+</tr>
+<tr>
+<td>Thursday</td>
+<td><img class="info-box-weather-icon" src"images/rain.png"></td>
+<td>&uarr;28</td>
+<td>&darr;17</td>
+</tr>
+<tr>
+<td>Friday</td>
+<td><img class="info-box-weather-icon" src"images/sunny.png"></td>
+<td>&uarr;29</td>
+<td>&darr;15</td>
+</tr>
+<tr>
+<td>Sartaday</td>
+<td><img class="info-box-weather-icon" src"images/sunny.png"></td>
+<td>&uarr;30</td>
+<td>&darr;17</td>
+</tr>
+<tr>
+<td>Sunday</td>
+<td><img class="info-box-weather-icon" src"images/sunny.png"></td>
+<td>&uarr;28</td>
+<td>&darr;16</td>
+</tr>
+</table>
+
+img.info-box-weather-icon{
+height : 30px;
+width  : 30px;
+margin : 10px;
+float  :left;
+}
+h1.info-box-weather-icon{
+font-size  : 65px;
+font-weight: 200;
+padding    : 0;
+margin     : 0;
+}
+
+<div id="info-box-full">
+<img src="images/giraffe-large.jpg>
+<h3>WE'D LOVE TO HERE FROM YOU</h3>
+<p>We always strive to do best, so your feedback is very important to us.
+Please fill in the form below</p>
+<input type="text" placeholder="Your name" id="name">
+<input type="text" placeholder="Your email" id="email">
+<textarea placeholder="Type your message here"></textarea>
+<a class="button" href="message-received.html">SUBMIT</a>
+</div>
+
+input{
+width: 100%;
+height: 25px;
+margin : 12px 0;
+border : 1px solid #929292;
+}
+textarea{
+width: 100%;
+height :25px;
+margin : 12px 0;
+border : 1px solid #929292;
+}
+.button{
+display : block;
+background-color: forestgreen;
+text-decoration : none;
+text-align  : center;
+color       : white;
+font-size   : 16px;
+font-weight : 600;
+margin : 12px 0;
+padding : 8px 0;
+}
